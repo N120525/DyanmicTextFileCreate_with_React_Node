@@ -85,7 +85,7 @@ function App() {
       }
 
       <div>
-        <button className="btn" onClick={getReport}>Report</button>
+        <button disabled={!isfileAvaliable} className="btn" onClick={getReport}>Report</button>
       </div>
       {isShowReport &&
         <div>
