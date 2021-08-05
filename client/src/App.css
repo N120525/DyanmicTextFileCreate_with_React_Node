@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.tetxare{
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.btn{
+  height: 38px;
+    width: 130px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
